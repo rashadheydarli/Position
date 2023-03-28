@@ -1,0 +1,44 @@
+.container{
+    border: 2px dashed black;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+}
+.child {
+    width: 150px;
+    height: 70px;
+
+}
+.red {
+    background-color: red;
+    position: absolute;
+}
+.orange {
+    background-color: orange;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.cyan{
+    background-color: cyan;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    
+}
+.yellow {
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.green{
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
